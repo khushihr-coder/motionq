@@ -1,0 +1,561 @@
+{
+  "navigation": {
+    "home": "Home",
+    "demo": "Demo",
+    "problem": "Problem",
+    "solution": "Solution",
+    "team": "Team",
+    "download": "Download",
+    "login": "Login",
+    "results": "Results",
+    "privacy": "Privacy"
+  },
+  "hero": {
+    "title": "Digital Empowerment in India",
+    "titleHighlight": " with Eye Movements",
+    "description": "MotionQ helps Indian users control their computers using just eye movements, facial expressions, and blinks—without any external hardware.",
+    "watchDemo": "Watch Demo",
+    "downloadNow": "Download Now"
+  },
+  "features": {
+    "title": "How MotionQ Works",
+    "description": "Advanced AI and computer vision technology transforms your facial movements into seamless computer control.",
+    "eyeTracking": "Eye Tracking",
+    "eyeTrackingDesc": "Real-time gaze tracking converts your eye movements into precise cursor control.",
+    "blinkDetection": "Blink Detection",
+    "blinkDetectionDesc": "Intentional blinks are recognized and used as click commands—no hands needed.",
+    "facialExpressions": "Facial Expressions",
+    "facialExpressionsDesc": "Smiles, eyebrow raises, and expressions trigger custom actions like scrolling.",
+    "noHardware": "No Hardware",
+    "noHardwareDesc": "Works with any standard webcam—no expensive external hardware required."
+  },
+  "cta": {
+    "title": "Ready to Experience Digital Freedom?",
+    "description": "Join thousands of Indian users who have taken control of their digital lives with MotionQ.",
+    "tryDemo": "Try Demo",
+    "learnMore": "Learn More"
+  },
+  "problem": {
+    "hero": {
+      "title": "The Digital Divide",
+      "titleHighlight": " Affects Millions",
+      "description": "Millions of people globally live with motor impairments that make traditional input devices like a mouse or keyboard difficult to use, creating barriers to digital independence."
+    }
+  },
+  "solution": {
+    "hero": {
+      "title": "Meet",
+      "titleHighlight": " MotionQ",
+      "description": "A smart, webcam-based interface that transforms facial movements into seamless computer control using advanced AI and computer vision technology.",
+      "badge1": "No Hardware Required",
+      "badge2": "Real-time Processing",
+      "badge3": "Privacy-First",
+      "badge4": "Open Source"
+    },
+    "howItWorks": {
+      "title": "How MotionQ Works",
+      "description": "Our system uses advanced algorithms to detect and interpret your facial movements in real-time",
+      "step1Title": "1. Face Detection",
+      "step1Desc": "Real-time face landmark detection maps key points on your face and eyes",
+      "step2Title": "2. Gaze Tracking",
+      "step2Desc": "Eye movement is translated into cursor control for precise pointer movement",
+      "step3Title": "3. Blink Recognition",
+      "step3Desc": "Intentional blinks are detected and used as click commands",
+      "step4Title": "4. Gesture Control",
+      "step4Desc": "Facial expressions trigger custom actions like scrolling and right-click",
+      "step5Title": "5. Seamless Control",
+      "step5Desc": "All movements are processed locally for instant, private computer control"
+    },
+    "tech": {
+      "title": "Powered by Advanced Technology",
+      "description": "MotionQ leverages cutting-edge libraries and frameworks for reliable performance",
+      "mediapipe": "Google's machine learning framework provides robust face and hand landmark detection with high accuracy and real-time performance.",
+      "opencv": "Computer vision library handles image processing, camera input, and advanced algorithms for gesture recognition and tracking.",
+      "pyautogui": "Cross-platform automation library translates detected movements into actual mouse and keyboard actions on your system."
+    },
+    "features": {
+      "title": "What Makes MotionQ Different",
+      "accessibilityTitle": "Accessibility-First Design",
+      "accessibility1": "Created specifically for users with limited mobility",
+      "accessibility2": "Intuitive interface with minimal learning curve",
+      "accessibility3": "Customizable sensitivity and gesture mapping",
+      "costTitle": "Cost-Effective Solution",
+      "cost1": "Works with any standard webcam",
+      "cost2": "No expensive hardware required",
+      "cost3": "Free and open-source software",
+      "privacyTitle": "Privacy & Security",
+      "privacy1": "All processing happens locally on your device",
+      "privacy2": "No data sent to external servers",
+      "privacy3": "Complete control over your personal information",
+      "practicalTitle": "Practical & Scalable",
+      "practical1": "Easy installation and setup process",
+      "practical2": "Cross-platform compatibility",
+    "practical3": "Continuous improvements and updates"
+    },
+"ctaSolution": {
+  "title": "Ready to Experience MotionQ?",
+  "description": "See how our technology can transform your digital experience with just your webcam and facial movements.",
+  "demo": "Watch Demo",
+  "download": "Download MotionQ"
+},
+"stats": {
+      "adults": "Adults in India with a disability",
+      "ambulatory": "People with ambulatory disabilities",
+      "worldwide": "People worldwide with disabilities",
+      "barriers": "Of websites have accessibility barriers"
+    },
+    "impact": {
+      "title": "Real-World Impact",
+      "description": "Understanding the daily challenges faced by individuals with limited motor function",
+      "basicTitle": "Basic Digital Tasks",
+      "basic1": "Browsing the web and accessing information",
+      "basic2": "Sending emails and staying connected",
+      "basic3": "Online shopping and banking",
+      "basic4": "Simple actions like closing windows",
+      "eduTitle": "Educational & Professional",
+      "edu1": "Attending online classes and meetings",
+      "edu2": "Completing assignments and coursework",
+      "edu3": "Remote work opportunities",
+      "edu4": "Professional development and training"
+    },
+    "current": {
+      "title": "Current Solutions Fall Short",
+      "expensiveTitle": "Expensive Hardware",
+      "expensiveDesc": "Eye-tracking devices cost thousands of dollars, making them inaccessible to many",
+      "complexTitle": "Complex Setup",
+      "complexDesc": "Existing solutions require extensive calibration and technical expertise",
+      "poorTitle": "Poor Accuracy",
+      "poorDesc": "Webcam-based tools are often inaccurate and frustrating for daily use"
+    },
+  "cta": {
+    "title": "It's Time for a Better Solution",
+    "description": "MotionQ addresses these challenges with an affordable, accurate, and easy-to-use solution that works with any standard webcam.",
+    "solution": "See Our Solution",
+    "demo": "Watch Demo"
+  }
+},
+"demo": {
+"hero": {
+"title": "See MotionQ",
+"titleHighlight": " In Action",
+"description": "Watch how MotionQ transforms facial movements into seamless computer control in real-time."
+},
+"video": {
+"title": "Software Download Demo",
+"subtitle": "Step-by-step installation guide",
+"description": "Demo shows the complete download process, installation steps, and initial setup of MotionQ software.",
+"downloadButton": "Download MotionQ Now",
+"documentationButton": "View Documentation"
+},
+"howToUse": {
+"title": "How to Use MotionQ",
+"description": "Follow these simple steps to start controlling your computer with facial movements",
+"step1Title": "Setup Camera",
+"step1Desc": "Position your webcam at eye level and ensure good lighting for optimal face detection.",
+"step2Title": "Calibrate Gaze",
+"step2Desc": "Look at different points on screen to calibrate eye tracking for accurate cursor movement.",
+"step3Title": "Practice Gestures",
+"step3Desc": "Learn the basic gestures: blink to click, smile for right-click, eyebrow raise to scroll.",
+"step4Title": "Start Controlling",
+"step4Desc": "Begin using MotionQ to browse, click, and interact with your computer naturally."
+},
+"highlights": {
+"title": "Demo Highlights",
+"description": "Key features demonstrated in our real-time showcase",
+"cursorTitle": "Cursor Movement",
+"cursorDesc": "Watch as eye movements translate to smooth cursor control across the screen with real-time tracking visualization.",
+"blinkTitle": "Blink Detection",
+"blinkDesc": "See how intentional blinks are accurately detected and converted to left-click actions with visual feedback.",
+"gesturesTitle": "Facial Gestures",
+"gesturesDesc": "Experience how smiles trigger right-clicks and eyebrow movements control scrolling and other custom actions.",
+"responseTitle": "Real-time Response",
+"responseDesc": "Observe the instant response time and accuracy of gesture recognition with on-screen debugging overlays."
+},
+"interactive": {
+"title": "Try MotionQ in Your Browser",
+"description": "Experience real TensorFlow.js-powered face tracking with live webcam processing",
+"demoTitle": "Real TensorFlow.js Eye Tracking Demo",
+"demoDescription": "Click to enable camera and experience real-time face tracking with TensorFlow.js",
+"realTimeDescription": "Real-time TensorFlow.js BlazeFace integration with face detection from your webcam feed. This demo processes your live video to detect facial landmarks and simulate eye tracking movements.",
+"blinkDetected": "Blink Detected!",
+"calibrationLook": "Look at the red dot and press SPACE",
+"cameraActive": "Camera Active",
+"tensorflowActive": "TensorFlow.js Active"
+},
+"controls": {
+"accessingCamera": "Accessing Camera...",
+"stopCamera": "Stop Camera",
+"enableCamera": "Enable Camera",
+"calibrate": "Calibrate"
+},
+"cta": {
+"title": "Ready to Get Started?",
+"description": "Download MotionQ and experience the full power of hands-free computer control.",
+"downloadButton": "Download MotionQ",
+"learnMoreButton": "Learn More"
+}
+},
+"download": {
+    "hero": {
+      "title": "Download",
+      "titleHighlight": " MotionQ",
+      "description": "Get started with MotionQ in minutes. Easy installation, comprehensive setup guide, and full support documentation.",
+      "badge1": "Free & Open Source",
+      "badge2": "Cross-Platform",
+      "badge3": "No Registration Required"
+    },
+    "platforms": {
+      "windowsDesc": "Windows 10/11 (64-bit)",
+      "windowsButton": "Download for Windows",
+      "windowsVersion": "Version 1.0.0 • 45.2 MB",
+      "macosDesc": "macOS 10.15+ (Intel/Apple Silicon)",
+      "macosButton": "Download for macOS",
+      "macosVersion": "Version 1.0.0 • 52.1 MB",
+      "linuxDesc": "Ubuntu 20.04+ / Debian 11+",
+      "linuxButton": "Download for Linux",
+      "linuxVersion": "Version 1.0.0 • 38.7 MB",
+      "sourceCode": "Need the source code?",
+      "viewGithub": "View on GitHub"
+    },
+    "requirements": {
+      "title": "System Requirements",
+      "description": "Ensure your system meets these requirements for optimal performance",
+      "minimumTitle": "Minimum Requirements",
+      "recommendedTitle": "Recommended Specs",
+      "processor": "Processor",
+      "minProcessor": "Intel Core i3 / AMD Ryzen 3 or equivalent",
+      "recProcessor": "Intel Core i5 / AMD Ryzen 5 or better",
+      "memory": "Memory & Storage",
+      "minMemory": "4GB RAM, 500MB free disk space",
+      "recMemory": "8GB RAM, 1GB free disk space",
+      "camera": "Camera",
+      "minCamera": "Any USB webcam or built-in camera (720p+)",
+      "recCamera": "HD webcam (1080p) with good lighting"
+    },
+    "installation": {
+      "title": "Installation Guide",
+      "description": "Step-by-step instructions to get MotionQ running on your system",
+      "windows": {
+        "step1Title": "Download the Installer",
+        "step1Desc": "Click the \"Download for Windows\" button above to get the MotionQ installer (.exe file).",
+        "step2Title": "Run the Installer",
+        "step2Desc": "Double-click the downloaded file and follow the installation wizard. Administrator privileges may be required.",
+        "step3Title": "Install Dependencies",
+        "step3Desc": "The installer will automatically download and install Python, OpenCV, MediaPipe, and other required libraries.",
+        "step4Title": "Launch MotionQ",
+        "step4Desc": "Find MotionQ in your Start Menu or desktop shortcut and launch the application."
+      },
+      "macos": {
+        "step1Title": "Download the Package",
+        "step1Desc": "Download the MotionQ .dmg file for macOS from the download section above.",
+        "step2Title": "Mount and Install",
+        "step2Desc": "Double-click the .dmg file, then drag MotionQ to your Applications folder.",
+        "step3Title": "Grant Permissions",
+        "step3Desc": "Allow camera access and accessibility permissions when prompted by macOS.",
+        "step4Title": "Launch from Applications",
+        "step4Desc": "Open MotionQ from your Applications folder or Launchpad."
+      },
+      "linux": {
+        "step1Title": "Download Package",
+        "step1Desc": "Download the .deb package for Ubuntu/Debian or .rpm for Red Hat-based distributions.",
+        "step2Title": "Install via Package Manager",
+        "step2Desc": "Ubuntu/Debian: sudo dpkg -i motionq.deb",
+        "step3Title": "Install Dependencies",
+        "step3Desc": "Run: sudo apt install -f to resolve any missing dependencies.",
+        "step4Title": "Launch MotionQ",
+        "step4Desc": "Find MotionQ in your applications menu or run motionq from terminal."
+      }
+    },
+    "troubleshooting": {
+      "title": "Troubleshooting",
+      "description": "Common issues and solutions to get MotionQ working smoothly",
+      "cameraTitle": "Camera Not Detected",
+      "cameraDescription": "If MotionQ can't access your camera:",
+      "cameraTip1": "Check camera permissions in system settings",
+      "cameraTip2": "Ensure no other apps are using the camera",
+      "cameraTip3": "Try unplugging and reconnecting USB cameras",
+      "cameraTip4": "Update camera drivers",
+      "trackingTitle": "Poor Tracking Accuracy",
+      "trackingDescription": "If eye tracking seems inaccurate:",
+      "trackingTip1": "Improve lighting conditions",
+      "trackingTip2": "Position camera at eye level",
+      "trackingTip3": "Recalibrate gaze tracking",
+      "trackingTip4": "Clean camera lens",
+      "cpuTitle": "High CPU Usage",
+      "cpuDescription": "If MotionQ is using too much CPU:",
+      "cpuTip1": "Lower camera resolution in settings",
+      "cpuTip2": "Reduce processing frame rate",
+      "cpuTip3": "Close other resource-intensive apps",
+      "cpuTip4": "Check for background processes",
+      "installationTitle": "Installation Errors",
+      "installationDescription": "If installation fails:",
+      "installationTip1": "Run installer as administrator",
+      "installationTip2": "Check available disk space",
+      "installationTip3": "Temporarily disable antivirus",
+      "installationTip4": "Download installer again"
+    },
+    "help": {
+      "title": "Need More Help?",
+      "description": "Can't find a solution? Our community and documentation have more detailed troubleshooting guides.",
+      "documentation": "View Documentation",
+      "contact": "Contact Support"
+    }
+  },
+  "team": {
+    "hero": {
+      "title": "Meet the",
+      "titleHighlight": " MotionQ Team",
+      "description": "We're a passionate group of developers, designers, and accessibility advocates working to make technology inclusive for everyone."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "MotionQ is more than just a project—it's a step toward inclusive design and tech accessibility for everyone. We believe that technology should adapt to people, not the other way around. Our goal is accessibility without compromise."
+    },
+    "members": {
+      "title": "Core Team",
+      "description": "The dedicated individuals behind MotionQ's development and vision",
+      "member1Role": "Lead Developer",
+      "member1Desc": "Computer vision specialist with 5+ years in accessibility tech. Leads the core algorithm development.",
+      "member2Role": "UX Designer",
+      "member2Desc": "Accessibility-focused designer ensuring MotionQ is intuitive and user-friendly for all abilities.",
+      "member3Role": "ML Engineer",
+      "member3Desc": "Machine learning expert optimizing gesture recognition and improving accuracy through advanced algorithms.",
+      "member4Role": "Product Manager",
+      "member4Desc": "Coordinates development efforts and ensures MotionQ meets real user needs through extensive testing.",
+      "member5Role": "Mentor",
+      "member5Desc": "Full-stack developer handling cross-platform compatibility and system integration features.",
+      "member6Role": "Accessibility Consultant",
+      "member6Desc": "Disability rights advocate ensuring MotionQ meets the highest accessibility standards and user needs."
+    },
+    "community": {
+      "title": "Join Our Community",
+      "description": "Help us improve MotionQ and make technology more accessible for everyone",
+      "contributeTitle": "Contribute Code",
+      "contributeDesc": "Help improve MotionQ by contributing to our open-source codebase on GitHub.",
+      "contributeButton": "View on GitHub",
+      "feedbackTitle": "Share Feedback",
+      "feedbackDesc": "Your experience and suggestions help us make MotionQ better for everyone.",
+      "feedbackButton": "Send Feedback",
+      "ideasTitle": "Suggest Features",
+      "ideasDesc": "Have ideas for new features or improvements? We'd love to hear from you.",
+      "ideasButton": "Share Ideas"
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "description": "Have feedback, questions, or want to get involved? We'd love to hear from you.",
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "your@email.com",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "What's this about?",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us about your experience, suggestions, or how you'd like to contribute...",
+      "submitButton": "Send Message",
+      "emailText": "You can also reach us directly at"
+    }
+  },
+  "results": {
+"hero": {
+"title": "User Testing",
+"titleHighlight": " Results",
+"description": "Real user feedback and performance metrics demonstrate MotionQ's effectiveness in providing accessible computer control.",
+"badge1": "25 Test Participants",
+"badge2": "2 Week Study",
+"badge3": "95% Satisfaction"
+},
+"metrics": {
+"blinkAccuracy": "Blink Detection Accuracy",
+"responseTime": "Average Response Time",
+"comfortRating": "User Comfort Rating",
+"productivity": "Productivity Improvement"
+},
+"analysis": {
+"title": "Performance Analysis",
+"description": "Comprehensive testing across different user groups and use cases",
+"accuracyTitle": "Accuracy Metrics",
+"blinkDetection": "Blink Detection",
+"gazeTracking": "Gaze Tracking",
+"facialGestures": "Facial Gestures",
+"falsePositives": "False Positives",
+"responseTitle": "Response Times",
+"eyeToCursor": "Eye Movement → Cursor",
+"blinkToClick": "Blink → Click",
+"gestureToAction": "Gesture → Action",
+"systemLatency": "System Latency"
+},
+"feedback": {
+"title": "User Feedback",
+"description": "What our test participants said about their MotionQ experience",
+"testimonial1": "MotionQ has completely changed how I interact with my computer. The setup was surprisingly easy and it works better than I expected.",
+"user1Condition": "Spinal cord injury",
+"testimonial2": "The accuracy is impressive. I can browse the web, send emails, and even play simple games. It's given me back my digital independence.",
+"user2Condition": "ALS patient",
+"testimonial3": "Great concept and execution. Sometimes the eye tracking needs recalibration, but overall it's a fantastic tool that I use daily.",
+"user3Condition": "Cerebral palsy"
+},
+"study": {
+"title": "Study Methodology",
+"description": "How we conducted our user testing and validation",
+"participantsTitle": "Participants",
+"totalParticipants": "Total Participants",
+"totalParticipantsValue": "25 users",
+"ageRange": "Age Range",
+"ageRangeValue": "22-67 years",
+"conditions": "Conditions",
+"conditionsValue": "Various motor impairments",
+"experience": "Experience Level",
+"experienceValue": "Beginner to Advanced",
+"protocolTitle": "Testing Protocol",
+"duration": "Study Duration",
+"durationValue": "2 weeks",
+"dailyUsage": "Daily Usage",
+"dailyUsageValue": "2-4 hours",
+"tasks": "Tasks Tested",
+"tasksValue": "15 common activities",
+"dataPoints": "Data Points",
+"dataPointsValue": "10,000+ interactions"
+},
+"improvements": {
+"title": "Key Improvements Made",
+"improvement1Title": "Reduced False Triggers",
+"improvement1Desc": "Improved algorithm sensitivity based on user feedback to reduce accidental clicks by 60%.",
+"improvement2Title": "Enhanced Cursor Control",
+"improvement2Desc": "Smoothed cursor movement and added customizable sensitivity settings for better precision.",
+"improvement3Title": "Improved Calibration",
+"improvement3Desc": "Streamlined the calibration process and added automatic recalibration when accuracy drops.",
+"improvement4Title": "Better Lighting Adaptation",
+"improvement4Desc": "Enhanced performance in various lighting conditions through improved image processing."
+},
+"cta": {
+"title": "Experience the Results Yourself",
+"description": "Join the growing community of users who have improved their digital accessibility with MotionQ.",
+"tryDemo": "Try Demo",
+"download": "Download MotionQ"
+}
+},
+"login": {
+    "title": "Welcome Back",
+    "description": "Sign in to your MotionQ account to access your personalized settings",
+    "demoTitle": "Demo User",
+    "demoDescription": "Try MotionQ instantly with our demo account",
+    "demoButton": "Use Demo Account",
+    "signingIn": "Signing in...",
+    "orSignIn": "Or sign in manually",
+    "emailLabel": "Email",
+    "emailPlaceholder": "Enter your email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "signInButton": "Sign In",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up"
+  },
+  "register": {
+    "title": "Create Account",
+    "description": "Join MotionQ to personalize your accessibility experience",
+    "firstNameLabel": "First Name",
+    "firstNamePlaceholder": "John",
+    "lastNameLabel": "Last Name",
+    "lastNamePlaceholder": "Doe",
+    "emailLabel": "Email",
+    "emailPlaceholder": "john@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Create a strong password",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "termsStart": "I agree to the",
+    "termsOfService": "Terms of Service",
+    "termsAnd": "and",
+    "privacyPolicy": "Privacy Policy",
+    "newsletter": "Send me updates about MotionQ features and accessibility news",
+    "createButton": "Create Account",
+    "orContinue": "Or continue with",
+    "haveAccount": "Already have an account?",
+    "signIn": "Sign in"
+  },
+  "privacy": {
+"hero": {
+"title": "Privacy &",
+"titleHighlight": " Accessibility",
+"description": "MotionQ is built with privacy-first principles and comprehensive accessibility standards to ensure a safe, inclusive experience for all users.",
+"badge1": "Local Processing",
+"badge2": "No Data Collection",
+"badge3": "WCAG 2.1 AA Compliant",
+"badge4": "Open Source"
+},
+"priority": {
+"title": "Your Privacy is Our Priority",
+"description": "MotionQ operates with complete transparency about data handling and user privacy",
+"localTitle": "Local Processing Only",
+"localDesc": "All facial recognition and gesture processing happens entirely on your local device. Your camera feed never leaves your computer.",
+"local1": "No video data transmitted to servers",
+"local2": "Real-time processing without storage",
+"local3": "Complete offline functionality",
+"zeroTitle": "Zero Data Collection",
+"zeroDesc": "MotionQ doesn't collect, store, or transmit any personal data, biometric information, or usage analytics.",
+"zero1": "No user accounts or registration required",
+"zero2": "No biometric data storage",
+"zero3": "No usage tracking or analytics",
+"transparentTitle": "Transparent Operation",
+"transparentDesc": "Our open-source codebase allows anyone to verify our privacy claims and security practices.",
+"transparent1": "Full source code available on GitHub",
+"transparent2": "Community-audited security practices",
+"transparent3": "Regular security updates and patches",
+"cloudTitle": "No Cloud Dependency",
+"cloudDesc": "MotionQ works completely offline without requiring internet connectivity or cloud services.",
+"cloud1": "No external API calls during operation",
+"cloud2": "Works without internet connection",
+"cloud3": "No third-party service dependencies"
+},
+"standards": {
+"title": "Accessibility Standards",
+"description": "MotionQ is designed to meet and exceed international accessibility guidelines",
+"wcagDesc": "Compliant with Web Content Accessibility Guidelines for maximum compatibility",
+"section508Desc": "Meets US federal accessibility requirements for government and public use",
+"adaDesc": "Designed to meet Americans with Disabilities Act requirements",
+"universalTitle": "Universal Design Principles",
+"universal1": "Equitable use for people with diverse abilities",
+"universal2": "Flexibility in use and customization",
+"universal3": "Simple and intuitive interface design",
+"universal4": "Perceptible information and feedback",
+"universal5": "Tolerance for error and recovery",
+"inclusiveTitle": "Inclusive Features",
+"inclusive1": "Adjustable sensitivity for different motor abilities",
+"inclusive2": "Multiple input methods and gesture options",
+"inclusive3": "High contrast visual feedback",
+"inclusive4": "Screen reader compatibility",
+"inclusive5": "Keyboard navigation support"
+},
+"security": {
+"title": "Security & Permissions",
+"description": "Understanding what permissions MotionQ needs and how we protect your security",
+"requiredTitle": "Required Permissions",
+"cameraTitle": "Camera Access",
+"cameraDesc": "Required for facial recognition and gesture detection",
+"systemTitle": "System Control",
+"systemDesc": "Needed to move cursor and simulate mouse clicks",
+"notRequiredTitle": "Not Required",
+"internetTitle": "Internet Access",
+"internetDesc": "MotionQ works completely offline",
+"personalTitle": "Personal Information",
+"personalDesc": "No access to files, contacts, or personal data",
+"bestPracticesTitle": "Security Best Practices",
+"dataProtectionTitle": "Data Protection",
+"dataProtection1": "No persistent storage of biometric data",
+"dataProtection2": "Encrypted communication with system APIs",
+"dataProtection3": "Regular security audits and updates",
+"userControlTitle": "User Control",
+"userControl1": "Easy permission management",
+"userControl2": "Instant disable/enable functionality",
+"userControl3": "Complete uninstall removes all traces"
+},
+"contact": {
+"title": "Questions About Privacy or Accessibility?",
+"description": "We're committed to transparency and continuous improvement. Reach out with any concerns or suggestions.",
+"contactButton": "Contact Us",
+"sourceButton": "View Source Code"
+}
+}
+}
