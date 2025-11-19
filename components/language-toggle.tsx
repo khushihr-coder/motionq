@@ -64,7 +64,6 @@ export function LanguageToggle() {
   )
 }
 
-/** Set language and notify via custom event */
 export function setAppLanguage(newLanguage: LanguageCode) {
   localStorage.setItem("motionq-language", newLanguage)
   document.documentElement.lang = newLanguage
