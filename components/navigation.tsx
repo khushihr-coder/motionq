@@ -67,7 +67,7 @@ export function Navigation() {
               <Button asChild size="sm">
                 <Link href="/register">
                   {/* Fixed: Now shows "साइन अप" in Hindi, "Sign Up" in English */}
-                  {mounted ? t('navigation.signup') : 'Sign Up'}
+                  {mounted ? t('signup') : 'Sign Up'}
                 </Link>
               </Button>
             </div>

@@ -74,10 +74,10 @@ return (
             <CardContent className="p-6 text-center">
               <div className="space-y-4">
                 <div className="w-24 h-24 rounded-full bg-primary/10 mx-auto flex items-center justify-center">
-                  <span className="text-2xl font-bold text-primary">DS</span>
+                  <span className="text-2xl font-bold text-primary">{t('team.members.member1logo')}</span>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-semibold">Disha Sakaria</h3>
+                  <h3 className="text-xl font-semibold">{t('team.members.member1name')}</h3>
                   <p className="text-primary font-medium" suppressHydrationWarning>{t('team.members.member1Role')}</p>
                   <p className="text-sm text-muted-foreground" suppressHydrationWarning>
                     {t('team.members.member1Desc')}
@@ -103,10 +103,10 @@ return (
             <CardContent className="p-6 text-center">
               <div className="space-y-4">
                 <div className="w-24 h-24 rounded-full bg-accent/10 mx-auto flex items-center justify-center">
-                  <span className="text-2xl font-bold text-accent">KR</span>
+                  <span className="text-2xl font-bold text-accent">{t('team.members.member2logo')}</span>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-semibold">Khushi Rathod</h3>
+                  <h3 className="text-xl font-semibold">{t('team.members.member2name')}</h3>
                   <p className="text-accent font-medium" suppressHydrationWarning>{t('team.members.member2Role')}</p>
                   <p className="text-sm text-muted-foreground" suppressHydrationWarning>
                     {t('team.members.member2Desc')}
@@ -132,10 +132,10 @@ return (
             <CardContent className="p-6 text-center">
               <div className="space-y-4">
                 <div className="w-24 h-24 rounded-full bg-primary/10 mx-auto flex items-center justify-center">
-                  <span className="text-2xl font-bold text-primary">SP</span>
+                  <span className="text-2xl font-bold text-primary">{t('team.members.member2logo')}</span>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-semibold">Samidha Pawaskar</h3>
+                  <h3 className="text-xl font-semibold">{t('team.members.member3name')}</h3>
                   <p className="text-primary font-medium" suppressHydrationWarning>{t('team.members.member3Role')}</p>
                   <p className="text-sm text-muted-foreground" suppressHydrationWarning>
                     {t('team.members.member3Desc')}
@@ -161,10 +161,10 @@ return (
             <CardContent className="p-6 text-center">
               <div className="space-y-4">
                 <div className="w-24 h-24 rounded-full bg-accent/10 mx-auto flex items-center justify-center">
-                  <span className="text-2xl font-bold text-accent">AS</span>
+                  <span className="text-2xl font-bold text-accent">{t('team.members.member4logo')}</span>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-semibold">Arni Shah</h3>
+                  <h3 className="text-xl font-semibold">{t('team.members.member4name')}</h3>
                   <p className="text-accent font-medium" suppressHydrationWarning>{t('team.members.member4Role')}</p>
                   <p className="text-sm text-muted-foreground" suppressHydrationWarning>
                     {t('team.members.member4Desc')}
@@ -190,10 +190,10 @@ return (
             <CardContent className="p-6 text-center">
               <div className="space-y-4">
                 <div className="w-24 h-24 rounded-full bg-primary/10 mx-auto flex items-center justify-center">
-                  <span className="text-2xl font-bold text-primary">KB</span>
+                  <span className="text-2xl font-bold text-primary">{t('team.members.member5logo')}</span>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-semibold">Prof. Kavita Badhe</h3>
+                  <h3 className="text-xl font-semibold">{t('team.members.member5name')}</h3>
                   <p className="text-primary font-medium" suppressHydrationWarning>{t('team.members.member5Role')}</p>
                   <p className="text-sm text-muted-foreground" suppressHydrationWarning>
                     {t('team.members.member5Desc')}
@@ -219,10 +219,10 @@ return (
             <CardContent className="p-6 text-center">
               <div className="space-y-4">
                 <div className="w-24 h-24 rounded-full bg-accent/10 mx-auto flex items-center justify-center">
-                  <span className="text-2xl font-bold text-accent">DU</span>
+                  <span className="text-2xl font-bold text-accent">{t('team.members.member6logo')}</span>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-semibold">Demo User</h3>
+                  <h3 className="text-xl font-semibold">{t('team.members.member6name')}</h3>
                   <p className="text-accent font-medium" suppressHydrationWarning>{t('team.members.member6Role')}</p>
                   <p className="text-sm text-muted-foreground" suppressHydrationWarning>
                     {t('team.members.member6Desc')}
