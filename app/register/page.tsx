@@ -1,6 +1,7 @@
 "use client"
 
 import { useTranslation } from 'react-i18next';
+import { useRouter } from 'next/navigation';
 import { Navigation } from "../../components/navigation"
 import { Button } from "../../components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../../components/ui/card"
@@ -11,6 +12,7 @@ import Link from "next/link"
 
 export default function RegisterPage() {
 const { t } = useTranslation()
+const router = useRouter()
   const [firstname, setFirstname] = useState("")
   const [lastname, setLastname] = useState("")
   const [email, setEmail] = useState("")
@@ -21,22 +23,26 @@ const { t } = useTranslation()
     e.preventDefault()  
     console.log("Creating account...")
     console.log({firstname, lastname, email, password, confirmPassword})
-    const name = firstname + " " + lastname
     try{
-      const url = "https://motionq.onrender.com/signup"
+      const url = "https://motionq-workingbackend.onrender.com/signup"
       const response = await fetch(url, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({ 
-        name:name, 
-        email:email, 
-        password:password, 
-        confirmPassword:confirmPassword })
+        firstname,
+        lastname,
+        email,
+        confirmPassword,
+        password
+      })
     })
       const data = await response.json()
       console.log(data)
+      if (response.ok) {
+        router.push('/')
+      }
     }catch(error){
       console.error("Error creating account:", error)
     }
