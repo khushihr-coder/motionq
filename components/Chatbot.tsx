@@ -34,11 +34,11 @@ export function Chatbot() {
     window.addEventListener("close-chatbot", handleCloseChatbot);
     return () => window.removeEventListener("close-chatbot", handleCloseChatbot);
   }, []);
-  
+
   const chatbotTranslations = {
     en: {
       title: "MotionQ Assistant",
-      placeholder: "Ask about downloads, features, or community...",
+      placeholder: "Ask about downloads, features...",
       send: "Send",
       listening: "Listening...",
       speaking: "Speaking...",
@@ -50,7 +50,7 @@ export function Chatbot() {
     },
     hi: {
       title: "MotionQ सहायक",
-      placeholder: "डाउनलोड, फीचर्स, या कम्युनिटी के बारे में पूछें...",
+      placeholder: "डाउनलोड, फीचर्स के बारे में पूछें...",
       send: "भेजें",
       listening: "सुन रहा हूं...",
       speaking: "बोल रहा हूं...",
@@ -156,7 +156,7 @@ export function Chatbot() {
       if (lowerInput.includes("फीचर") || lowerInput.includes("feature") || lowerInput.includes("सुविधा")) {
         return "MotionQ में कई शानदार फीचर्स हैं: आई ट्रैकिंग (आंखों की गति से कंट्रोल), हैंड जेस्चर कंट्रोल, वॉयस कमांड, फेशियल एक्सप्रेशन रिकग्निशन, और एक्सेसिबिलिटी टूल्स। यह विशेष रूप से दिव्यांग व्यक्तियों के लिए बनाया गया है। कौन सा फीचर जानना चाहते हैं?"
       }
-      if (lowerInput.includes("कैसे") || lowerInput.includes("how") || lowerInput.includes("उपयोग")) {
+      if (lowerInput.includes("कैसे") || lowerInput.includes("how") || lowerInput.includes("how to") || lowerInput.includes("उपयोग")) {
         return "MotionQ का उपयोग बहुत आसान है! पहले सॉफ्टवेयर डाउनलोड करें, फिर कैमरा सेटअप करें। आंखों की गति या हाथ के इशारों से आप कंप्यूटर को कंट्रोल कर सकते हैं। क्या आपको स्टेप-बाई-स्टेप गाइड चाहिए?"
       }
       return "मैं आपकी मदद करने के लिए यहां हूं! आप मुझसे डाउनलोड, फीचर्स, कम्युनिटी, या MotionQ के उपयोग के बारे में हिंदी या अंग्रेजी में पूछ सकते हैं।"
@@ -170,7 +170,7 @@ export function Chatbot() {
       if (lowerInput.includes("feature")) {
         return "MotionQ includes powerful features: Eye tracking (control with eye movement), hand gesture recognition, voice commands, facial expression detection, and comprehensive accessibility tools. It's specifically designed to help people with disabilities interact with computers. Which feature would you like to explore?"
       }
-      if (lowerInput.includes("how") || lowerInput.includes("use")) {
+      if (lowerInput.includes("how") || lowerInput.includes("use") || lowerInput.includes("how to")) {
         return "Using MotionQ is straightforward! First download and install the software, then set up your camera. You can control your computer using eye movements, hand gestures, or voice commands. Would you like a detailed setup guide or tutorial?"
       }
       return "I'm here to help! You can ask me about downloads, features, community, or how to use MotionQ. Feel free to speak in English or Hindi - I understand both languages!"
@@ -200,22 +200,21 @@ export function Chatbot() {
   if (!isOpen) {
     return (
       <Button
-  id="open-chatbot-button" // <-- ADD THIS LINE
-  onClick={() => setIsOpen(true)}
-  className="fixed bottom-6 right-6 h-14 w-14 rounded-full bg-primary hover:bg-primary/90 shadow-lg z-50"
-  size="icon"
-  aria-label="Open chatbot"
->
-  <MessageCircle className="h-6 w-6 text-primary-foreground" />
-</Button>
-
+        id="open-chatbot-button"
+        onClick={() => setIsOpen(true)}
+        className="fixed bottom-6 right-6 h-14 w-14 rounded-full bg-primary hover:bg-primary/90 shadow-lg z-50"
+        size="icon"
+        aria-label="Open chatbot"
+      >
+        <MessageCircle className="h-6 w-6 text-primary-foreground" />
+      </Button>
     )
   }
 
   return (
-    <Card className="fixed bottom-6 right-6 w-96 h-[500px] shadow-2xl z-50 flex flex-col">
+    <Card className="fixed bottom-6 right-6 w-96 h-[500px] shadow-2xl z-50 flex flex-col overflow-hidden bg-background">
       {/* Header */}
-      <div className="flex items-center justify-between p-4 border-b bg-primary text-primary-foreground rounded-t-lg">
+      <div className="flex-none flex items-center justify-between p-4 border-b bg-primary text-primary-foreground fixed w-96 z-50">
         <h3 className="font-semibold">{t?.title || "MotionQ Assistant"}</h3>
         <div className="flex items-center gap-2">
           <Button
@@ -237,28 +236,26 @@ export function Chatbot() {
             {isSpeaking ? <VolumeX className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}
           </Button>
           <Button
-          id="close-chatbot-button"
-          variant="ghost"
-          size="icon"
-          onClick={() => setIsOpen(false)}
-          className="h-8 w-8 text-primary-foreground hover:bg-primary/80"
-          aria-label="Close chatbot"
+            id="close-chatbot-button"
+            variant="ghost"
+            size="icon"
+            onClick={() => setIsOpen(false)}
+            className="h-8 w-8 text-primary-foreground hover:bg-primary/80"
+            aria-label="Close chatbot"
           >
-          <X className="h-4 w-4" />
+            <X className="h-4 w-4" />
           </Button>
-
         </div>
       </div>
 
       {/* Messages */}
-      <ScrollArea className="flex-1 p-4">
+      <ScrollArea className="flex-1 p-4 pb-0 overflow-y-auto pt-20">
         <div className="space-y-4">
           {messages.map((message) => (
             <div key={message.id} className={`flex ${message.isUser ? "justify-end" : "justify-start"}`}>
               <div
-                className={`max-w-[80%] p-3 rounded-lg ${
-                  message.isUser ? "bg-primary text-primary-foreground" : "bg-muted text-muted-foreground"
-                }`}
+                className={`max-w-[80%] p-3 rounded-lg ${message.isUser ? "bg-primary text-primary-foreground" : "bg-muted text-muted-foreground"
+                  }`}
               >
                 <p className="text-sm">{message.text}</p>
                 <div className="flex items-center justify-between mt-1">
@@ -297,7 +294,7 @@ export function Chatbot() {
       </ScrollArea>
 
       {/* Input */}
-      <div className="p-4 border-t">
+      <div className="flex-none p-4 border-t bg-background">
         <div className="flex gap-2">
           <div className="flex-1 relative">
             <Input
