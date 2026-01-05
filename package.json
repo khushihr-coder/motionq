@@ -46,7 +46,11 @@
     "cmdk": "1.0.4",
     "date-fns": "4.1.0",
     "embla-carousel-react": "8.5.1",
+<<<<<<< HEAD
     "face-api.js": "^0.20.0",
+=======
+    "face-api.js": "^0.22.2",
+>>>>>>> e6390e240f08343649a9efe217fe2b106034e75e
     "geist": "latest",
     "i18next": "^23.7.6",
     "i18next-browser-languagedetector": "^7.2.0",
